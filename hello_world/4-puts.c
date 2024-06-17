@@ -1,12 +1,12 @@
 /*
- * Fi 4-puts.c
- * Auth: Chayad31 9395@holbertonschool.com>
+ * File: 4-puts.c
+ * Auth: Chrissayad31 <9395@holbertonschool.com>
  */
 
 #include <stdio.h>
 
 /**
- * main - Printming is like building a multilingual
+ * main - Prints "Programming is like building a multilingual
  *                puzzle, followed by a new line.
  *
  * Return: Always 0.
