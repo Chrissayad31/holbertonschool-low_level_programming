@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - 6-size
-* Return: Always 0 (Success)
-*/
+ * main - 6-size
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
