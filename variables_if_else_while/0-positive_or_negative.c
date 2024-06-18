@@ -1,8 +1,12 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
+/**
+ * main - Printf
+ *
+ * Return 0 (ok)
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
