@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - Printf
+ * main - entry point
  *
- * Return 0 (ok)
+ * Return: 0 (ok)
  */
 
 int main(void)
