@@ -5,8 +5,7 @@
 /**
  * int _islower - entry point
  *
- * Return: 1 (good)
- * Return: 0 (not good)
+ * Return: 1 (ok)
  */
 
 int _islower(int c)
