@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * int _islower(int c) - entry point
+ * int _islower - entry point
  *
  * Return: 1 (good)
  * Return: 0 (not good)
