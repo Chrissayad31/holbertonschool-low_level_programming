@@ -5,6 +5,8 @@
 /**
  * print_alphabet - entry point
  *
+ * Return: 1 (good)
+ * Return: 0 (not good)
  */
 
 int _islower(int c)
