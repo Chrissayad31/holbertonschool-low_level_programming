@@ -3,8 +3,6 @@
 
 /**
  * main - entry point
- *
- * Return: 0 (ok)
  */
 
 void print_alphabet(void)
