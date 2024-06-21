@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - entry point
+ * int _islower(int c) - entry point
  *
  * Return: 1 (good)
  * Return: 0 (not good)
