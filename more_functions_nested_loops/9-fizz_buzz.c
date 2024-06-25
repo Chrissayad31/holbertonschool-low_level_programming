@@ -18,7 +18,7 @@ int main(void)
 		else if (num % 3 == 0)
 			printf(" Fizz");
 		else if (num == 1)
-			printf ("%d", num);
+			printf("%d", num);
 		else
 			printf(" %d", num);
 	}
