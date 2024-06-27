@@ -7,14 +7,23 @@
  *
  * @s: integer value
  */
-void print_rev(char *s) 
+void print_rev(char *s)
 {
-        int length = write(s);
-        int i;
+        int i, j, length;
 
-        for (i = length - 1; i >= 0; i--)
+        i = 0;
+
+        while (s[i] != '\0')
         {
-                _putchar(s[i]);
+                i++;
         }
+
+        len = i;
+
+        for (j = length - 1; j >= 0; j--)
+        {
+                _putchar(s[j]);
+        }
+
         _putchar('\n');
 }
