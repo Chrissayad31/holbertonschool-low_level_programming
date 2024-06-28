@@ -25,13 +25,13 @@ void rev_string(char *s)
 	 * Inverser la chaine:
 	 *
 	 * la boucle continue tant que i est inferieur a la
-	 * moitie ©de la longuer de la chine
+	 * moitie de la longueur de la chaine
 	 */
 	for (i = 0; i < length / 2; i++)
 	{
 		temp = s[i];		   /** mettre i dans la variable temp */
-		s[i] = s[length - 1 - i];  /** eÃchanger i avec son opose */
-		s[length - 1 - i] = temp;  /** mettre l'oppose ©dans emp */
+		s[i] = s[length - 1 - i];  /** echanger i avec son oppose */
+		s[length - 1 - i] = temp;  /** mettre l'oppose de i ©das temp */
 	}
 }
 
