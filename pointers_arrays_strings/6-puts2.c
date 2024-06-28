@@ -6,12 +6,16 @@
  *
  * @str: integer value
  */
-void puts2(char *str)
+void puts2(char *s)
 {
-	while (*str != '\0')
+	int a;
+
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		_putchar(*str);
-		str += 2;
+		if (a % 2 == 0)
+		{
+			_putchar(s[a]);
+		}
 	}
 	_putchar('\n');
 }
