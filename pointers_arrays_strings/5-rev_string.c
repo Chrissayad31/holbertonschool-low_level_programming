@@ -26,9 +26,9 @@ void rev_string(char *s)
 	 */
 	for (i = 0; i < length / 2; i++)
 	{
-		temp = s[i]; /** mettre i dans la variable temp */
-		s[i] = s[length - 1 - i]; /** eÃchanger i avec son opose */
-		s[length - 1 - i] = temp; /** mettre l'oppose ©dans emp */
+		temp = s[i];		   /** mettre i dans la variable temp */
+		s[i] = s[length - 1 - i];  /** eÃchanger i avec son opose */
+		s[length - 1 - i] = temp;  /** mettre l'oppose ©dans emp */
 	}
 }
 
