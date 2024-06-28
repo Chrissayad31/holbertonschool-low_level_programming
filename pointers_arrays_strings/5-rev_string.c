@@ -31,7 +31,7 @@ void rev_string(char *s)
 	{
 		temp = s[i];		   /** mettre i dans la variable temp */
 		s[i] = s[length - 1 - i];  /** echanger i avec son oppose */
-		s[length - 1 - i] = temp;  /** mettre l'oppose de i ©das temp */
+		s[length - 1 - i] = temp;  /** mettre l'oppose de i dans temp */
 	}
 }
 
