@@ -13,7 +13,10 @@ void rev_string(char *s)
 	int i;
 	char temp;
 
-	while (s[length] != '\0') /* calculer la longueur de la chaine */
+	/**
+	 * calculer la longueur de la chaine:
+	 */
+	while (s[length] != '\0')
 	{
 		length++;
 	}
