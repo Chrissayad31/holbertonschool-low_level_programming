@@ -1,6 +1,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
+char *_memcpy(char *dest, char *src, unsigned int n);
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
