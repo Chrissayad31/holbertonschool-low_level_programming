@@ -4,6 +4,7 @@
  */
 
 #include <stdio.h>
+#include "main.h"
 
 /**
  *_memset - The _memset() function fills
